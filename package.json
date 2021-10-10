@@ -1,0 +1,16 @@
+{
+  "name": "hng-certificate",
+  "version": "1.0.0",
+  "description": "A simple certificate page",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/style.css -o public/style.css"
+  },
+  "author": "Efosa Uyi-Idahor",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.9",
+    "tailwindcss": "^2.2.16"
+  }
+}
